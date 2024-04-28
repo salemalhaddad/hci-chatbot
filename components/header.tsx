@@ -20,7 +20,7 @@ async function UserOrLogin() {
   const session = (await auth()) as Session
   return (
     <>
-      {session?.user ? (
+      {/* {session?.user ? (
         <>
           <SidebarMobile>
             <ChatHistory userId={session.user.id} />
@@ -32,16 +32,16 @@ async function UserOrLogin() {
           <IconNextChat className="size-6 mr-2 dark:hidden" inverted />
           <IconNextChat className="hidden size-6 mr-2 dark:block" />
         </Link>
-      )}
+      )} */}
       <div className="flex items-center">
-        <IconSeparator className="size-6 text-muted-foreground/50" />
+        {/* <IconSeparator className="size-6 text-muted-foreground/50" />
         {session?.user ? (
           <UserMenu user={session.user} />
         ) : (
           <Button variant="link" asChild className="-ml-2">
             <Link href="/login">Login</Link>
           </Button>
-        )}
+        )} */}
       </div>
     </>
   )
@@ -55,7 +55,7 @@ export function Header() {
           <UserOrLogin />
         </React.Suspense>
       </div>
-      <div className="flex items-center justify-end space-x-2">
+      {/* <div className="flex items-center justify-end space-x-2">
         <a
           target="_blank"
           href="https://github.com/vercel/nextjs-ai-chatbot/"
@@ -74,7 +74,7 @@ export function Header() {
           <span className="hidden sm:block">Deploy to Vercel</span>
           <span className="sm:hidden">Deploy</span>
         </a>
-      </div>
+      </div> */}
     </header>
   )
 }

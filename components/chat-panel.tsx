@@ -36,24 +36,24 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'Explain a chapter',
+      subheading: 'Can you explain the chapter on photosynthesis?',
+      message: `Can you explain the chapter on photosynthesis?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Solve a math problem',
+      subheading: 'What is the answer to 5 x 10?',
+      message: 'What is the answer to 5 x 10?'
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Find a historical event',
+      subheading: 'Tell me about the Boston Tea Party',
+      message: `Tell me about the Boston Tea Party`
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'Define a word',
+      subheading: `What does "metamorphosis" mean?`,
+      message: `What does "metamorphosis" mean?`
     }
   ]
 
